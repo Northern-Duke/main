@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/tundra.github.io/" element={<MainPage />} />
+          <Route path="/tundra.github.io" element={<MainPage />} />
         </Routes>
     </div>
     </BrowserRouter>

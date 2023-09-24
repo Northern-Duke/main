@@ -39,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://northern-duke.github.io/tundra.github.io/"
+  "homepage": "https://northern-duke.github.io/tundra.github.io/",
+  "devDependencies": {
+    "react-svg-loader": "^3.0.3"
+  }
 }

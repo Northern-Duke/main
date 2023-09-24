@@ -2,5 +2,14 @@
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #F0F8FF;
+  background-color: #fcfcfc;
+}
+
+h{
+  color: #000;
+font-family: Inter;
+font-size: 85px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
