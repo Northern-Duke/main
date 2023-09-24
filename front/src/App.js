@@ -1,10 +1,16 @@
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MainPage from "./pages/main";
+import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h>화면 테스트</h>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/tundra.github.io/" element={<MainPage />} />
+        </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 
